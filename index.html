@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Of The Day</title>
+</head>
+<body>
+    <h1 id="joke-title">Joke Of The Day</h1>
+    <p id="joke"></p>
+    <ul>
+        <li>
+            <button onclick="fetchJoke('Any')">Random Joke</button>
+        </li>
+        <li>
+            <button onclick="fetchJoke('Programming')">Programming</button>
+        </li>
+        <li>
+            <button onclick="fetchJoke('Misc')">Misc</button>
+        </li>
+        <li>
+            <button onclick="fetchJoke('Pun')">Pun</button>
+        </li>
+        <li>
+            <button onclick="fetchJoke('Spooky')">Spooky</button>
+        </li>
+        <li>
+            <button onclick="fetchJoke('Christmas')">Christmas</button>
+        </li>
+    </ul>
+    <link rel="stylesheet" href="desing.css">
+    <script src="punsApi.js"></script>
+</body>
+</html>
